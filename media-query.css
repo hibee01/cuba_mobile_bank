@@ -497,6 +497,9 @@
         line-height: 1.5;
         margin-top: 1rem;
     }
+    #quote {
+        background-position: center;
+    }
     #quote h3{
         font-size: 1.3rem;
         width: 100%;
