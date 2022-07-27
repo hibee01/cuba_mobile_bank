@@ -86,6 +86,9 @@ nav a {
     text-align: center;
     /* background-color: lightcoral; */
 }
+.loan-guy, .car-loan {
+    width: 100%;
+}
 .section-2-text-cont {
     flex-basis: 40%;
     text-align: justify;
@@ -255,6 +258,9 @@ nav a {
     /* background-color: lightseagreen; */
     flex-basis: 47%;
 }
+.persona-img img, .Prototype-img img {
+    width: 100%;
+}
 .research-text, .persona-text, .Prototype-text, .Testing-text {
     /* background-color: lightcoral; */
     flex-basis: 47%;  
@@ -404,6 +410,12 @@ nav a {
     margin: auto;
     flex-wrap: wrap;
 }
+#location .location-img-cont .location-phone img {
+    width: 100%;
+}
+.location-phone {
+    flex-basis: 18%;
+}
 
 /* support section */
 
@@ -426,12 +438,17 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: red; */
-    flex-basis: 65%;
+    flex-basis: 70%;
 }
 .support-img-banners {
-    width: 25%;
+    flex-basis: 25%;
     /* background-color: rgb(94, 255, 0); */
+}
+.support-phone {
+    flex-basis: 32%;
+}
+.support-phone img {
+    width: 100%;
 }
 .banner-cont {
     margin-bottom: 2rem;
@@ -495,7 +512,12 @@ nav a {
     margin: auto;
     justify-content: center;
 }
-
+.phone-screens {
+    flex-basis: 25%;
+}
+.phone-screens img {
+    width: 100%;
+}
 /* footer section */
 
 #footer {
